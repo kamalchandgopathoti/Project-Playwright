@@ -10,10 +10,10 @@ export class loginpage {
          await this.page.goto('https://adactinhotelapp.com/')
     }
     async enterusername(){
-         await this.uname.fill("akashv24698")
+         await this.uname.fill("Trontheuser")
     }
     async enterpassword(password){
-         await this.pass.fill("h")
+         await this.pass.fill("Qwerty@1")
     }
     async clickbutton(){
          await this.button.click()
