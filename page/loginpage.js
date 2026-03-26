@@ -13,7 +13,7 @@ export class loginpage {
          await this.uname.fill("akashv24698")
     }
     async enterpassword(password){
-         await this.pass.fill("Akash@24")
+         await this.pass.fill("h")
     }
     async clickbutton(){
          await this.button.click()
