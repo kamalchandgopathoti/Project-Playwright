@@ -8,6 +8,5 @@ test ('Testing Phase' , async ({page})=> {
     await page.locator("#sac-autocomplete-results-container").getByLabel('priya pickles').click()
 
     await page.waitForTimeout(10000)
-    
 
 })

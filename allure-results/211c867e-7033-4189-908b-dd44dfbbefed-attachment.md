@@ -1,0 +1,249 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4] [cursor=pointer]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]:
+            - img [ref=e17]
+            - text: Elements
+          - img [ref=e22]
+        - list [ref=e25]:
+          - listitem [ref=e26] [cursor=pointer]:
+            - link "Text Box" [ref=e27]:
+              - /url: /text-box
+              - img [ref=e28]
+              - text: Text Box
+          - listitem [ref=e30] [cursor=pointer]:
+            - link "Check Box" [ref=e31]:
+              - /url: /checkbox
+              - img [ref=e32]
+              - text: Check Box
+          - listitem [ref=e34] [cursor=pointer]:
+            - link "Radio Button" [ref=e35]:
+              - /url: /radio-button
+              - img [ref=e36]
+              - text: Radio Button
+          - listitem [ref=e38] [cursor=pointer]:
+            - link "Web Tables" [ref=e39]:
+              - /url: /webtables
+              - img [ref=e40]
+              - text: Web Tables
+          - listitem [ref=e42] [cursor=pointer]:
+            - link "Buttons" [ref=e43]:
+              - /url: /buttons
+              - img [ref=e44]
+              - text: Buttons
+          - listitem [ref=e46] [cursor=pointer]:
+            - link "Links" [ref=e47]:
+              - /url: /links
+              - img [ref=e48]
+              - text: Links
+          - listitem [ref=e50] [cursor=pointer]:
+            - link "Broken Links - Images" [ref=e51]:
+              - /url: /broken
+              - img [ref=e52]
+              - text: Broken Links - Images
+          - listitem [ref=e54] [cursor=pointer]:
+            - link "Upload and Download" [ref=e55]:
+              - /url: /upload-download
+              - img [ref=e56]
+              - text: Upload and Download
+          - listitem [ref=e58] [cursor=pointer]:
+            - link "Dynamic Properties" [ref=e59]:
+              - /url: /dynamic-properties
+              - img [ref=e60]
+              - text: Dynamic Properties
+      - generic [ref=e64] [cursor=pointer]:
+        - generic [ref=e65]:
+          - img [ref=e67]
+          - text: Forms
+        - img [ref=e73]
+      - generic [ref=e77] [cursor=pointer]:
+        - generic [ref=e78]:
+          - img [ref=e80]
+          - text: Alerts, Frame & Windows
+        - img [ref=e85]
+      - generic [ref=e89] [cursor=pointer]:
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - text: Widgets
+        - img [ref=e98]
+      - generic [ref=e102] [cursor=pointer]:
+        - generic [ref=e103]:
+          - img [ref=e105]
+          - text: Interactions
+        - img [ref=e110]
+      - generic [ref=e114] [cursor=pointer]:
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - text: Book Store Application
+        - img [ref=e122]
+    - generic [ref=e124]:
+      - heading "Text Box" [level=1] [ref=e125]
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - generic [ref=e130]: Full Name
+          - textbox "Full Name" [ref=e132]: Chand
+        - generic [ref=e133]:
+          - generic [ref=e135]: Email
+          - textbox "name@example.com" [ref=e137]: chand@gmail.com
+        - generic [ref=e138]:
+          - generic [ref=e140]: Current Address
+          - textbox "Current Address" [ref=e142]: chennai
+        - generic [ref=e143]:
+          - generic [ref=e145]: Permanent Address
+          - textbox [active] [ref=e147]: Andhra Pradesh
+        - button "Submit" [ref=e150] [cursor=pointer]
+    - generic [ref=e156]:
+      - iframe [ref=e159]:
+        - generic [ref=f4e1]:
+          - generic [ref=f4e2]:
+            - generic:
+              - img [ref=f4e6] [cursor=pointer]
+              - button [ref=f4e8] [cursor=pointer]:
+                - img [ref=f4e9]
+          - iframe [ref=f4e16] [cursor=pointer]:
+            - img [ref=f21e1]
+          - insertion [ref=f4e17]:
+            - iframe [ref=f4e20]:
+              - generic [active] [ref=f15e1]:
+                - iframe [ref=f15e3]:
+                  - generic [ref=f16e2] [cursor=pointer]:
+                    - img [ref=f16e3]
+                    - img "108533-56":
+                      - img
+                    - generic:
+                      - img
+                    - img [ref=f16e7]
+                    - img "CAG_White" [ref=f16e8]:
+                      - img [ref=f16e9]
+                    - img "Scoot logo" [ref=f16e13]:
+                      - img [ref=f16e14]
+                    - img [ref=f16e19]
+                    - region "Picture yourself" [ref=f16e22]:
+                      - img [ref=f16e23]
+                      - generic [ref=f16e29]:
+                        - text: ‌
+                        - generic [ref=f16e30]: Picture‌
+                        - generic [ref=f16e31]: ‌
+                        - generic [ref=f16e32]: yourself‌
+                    - generic:
+                      - img
+                    - region "Sale fares from" [ref=f16e33]:
+                      - img [ref=f16e34]
+                      - generic [ref=f16e40]:
+                        - text: ‌
+                        - generic [ref=f16e41]: Sale‌
+                        - generic [ref=f16e42]: ‌
+                        - generic [ref=f16e43]: fares‌
+                        - generic [ref=f16e44]: ‌
+                        - generic [ref=f16e45]: from‌
+                    - region "₹" [ref=f16e46]:
+                      - img [ref=f16e47]
+                      - generic [ref=f16e53]:
+                        - text: ‌
+                        - generic [ref=f16e54]: ₹‌
+                    - region "6,050" [ref=f16e55]:
+                      - img [ref=f16e56]
+                      - generic [ref=f16e62]:
+                        - text: ‌
+                        - generic [ref=f16e63]: 6,050‌
+                    - region "*" [ref=f16e64]:
+                      - img [ref=f16e65]
+                      - generic [ref=f16e71]:
+                        - text: ‌
+                        - generic [ref=f16e72]: "*‌"
+                    - button "Book now" [ref=f16e73]:
+                      - img [ref=f16e74]
+                      - generic [ref=f16e80]:
+                        - text: ‌
+                        - generic [ref=f16e81]: Book‌
+                        - generic [ref=f16e82]: ‌
+                        - generic [ref=f16e83]: now‌
+                    - region "*One-way, taxes included. Terms apply." [ref=f16e84]:
+                      - img [ref=f16e85]
+                      - generic [ref=f16e89]:
+                        - generic [ref=f16e91]:
+                          - text: ‌
+                          - generic [ref=f16e92]: "*‌"
+                          - generic [ref=f16e93]: One-way,‌
+                          - generic [ref=f16e94]: ‌
+                          - generic [ref=f16e95]: taxes‌
+                          - generic [ref=f16e96]: ‌
+                          - generic [ref=f16e97]: included.‌
+                        - generic [ref=f16e100]:
+                          - text: ‌
+                          - generic [ref=f16e101]: ‌
+                          - generic [ref=f16e102]: Terms‌
+                          - generic [ref=f16e103]: ‌
+                          - generic [ref=f16e104]: apply.‌
+                    - img "talent":
+                      - img
+                    - region "in Singapore" [ref=f16e105]:
+                      - img [ref=f16e106]
+                      - generic [ref=f16e112]:
+                        - text: ‌
+                        - generic [ref=f16e113]: in‌
+                        - generic [ref=f16e114]: ‌
+                        - generic [ref=f16e115]: Singapore‌
+                    - img "Location Tag-White" [ref=f16e116]:
+                      - img [ref=f16e117]
+                    - region "New Bahru":
+                      - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: ‌
+                              - generic: New‌
+                              - generic: ‌
+                              - generic: Bahru‌
+                    - region "Haji Lane" [ref=f16e121]:
+                      - img [ref=f16e122]
+                      - generic [ref=f16e128]:
+                        - text: ‌
+                        - generic [ref=f16e129]: Haji‌
+                        - generic [ref=f16e130]: ‌
+                        - generic [ref=f16e131]: Lane‌
+                    - img "108533-56 (2)":
+                      - img
+                    - img "108533-56 (1)":
+                      - img
+                    - region "Singapore Cable Car":
+                      - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: ‌
+                              - generic: Singapore‌
+                              - generic: ‌
+                              - generic: Cable‌
+                              - generic: ‌
+                              - generic: Car‌
+                    - generic:
+                      - img
+                    - img "ending-tagline":
+                      - img
+                - iframe [ref=f15e4]:
+                  
+      - iframe [ref=e162]:
+        - generic [ref=f7e2]:
+          - link "Advertisement" [ref=f7e4] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuGsVMcDN8sOac-kHuNH3ZO2dsbKTaDV0oIc3MA9zAVIgWXIS_eYzCU171tVli4RPt8MS_KsfXet7jIErZ4FGERjs5cVFlQuvvkdDLepfe49dKg-AJ4qKpyaBm8tPrzkE-21IVT2c7gz6aNXq1zEiUy0lEfW6dzxOpXdbCSi1V2Fb-_lDZgQuSlK1NROOkI3WATkgN_IuLTkUVvnQwkXW1lfQXb5_lvLyHS_k9Pv-uyWJrDnm_F9iiHrUcg9uLhq-olsDtX0eO1hWuIqI5OIu1izFWEJ3gOC8VrLCv15O1TV27hrklq8ENoEsUzScCmznxIaxReBJufpOXeRZwc57lSNv2ryUpn0KoS6OCl7asK4Fe8PwVXaRCHhyMfSS5uqu0gI8d2owdzNtswXRAXQB5pIk8uMhtNGZkYAkmMxYScSOi1xpfykBT-8D_QmjBnrFQKwir6nmeq4tPglKrz7PFWzG5_H6r4moDG5plUYr5DEQqTXvcoX6u0ZumfsrX_TuS5zeq-gXV4H3wUxxFy_ZTIQettnws96fSWXTQjyjpMSDiWnhAFGj_0TzNC1R3Ju3bniQrogygbI-malwwaTttGl8QTknuhMz0X5DeQoXBHeP5W7jDMCyMf2mbyN3viF4MhxY9y4XTQeMXM7ZWDQJN9UEIfojy5paH3dCZLlQefq1VKv-25BSgDCpmDgIX97_FazsigNl2xX1RAf4wwHfNBkURfyLdmEIglA1Ubros4J5Pfuf6jL5Eud0ia6J5DuRTmBsdmIxbF9UvNdF0RbbZJ1x0gQu_u0nFkwxj7Yhpakk2GgpmLLdpbJdmjiRHXYiCy6CSB14uFj9MTvoe8RbbrkPwFi72UlBPPttUYEgcZtl47obebsx5QUwRvjvnKmvZpxueEzySkwmNy-GgDsL3W-p5iAFmTgTobWfRZnbdbMtls1nKyxk2fj6-o1MnDw17XlgyLSd8IMmgXK6TLUscdTyCXvNQJENyQWgTnbr4S_MRfKPfhGVfe4KeFVb9Hr90UZeth6V4to2TfXP0QiXpmAphRZajNQpIbHgb46YwROpiOIlUMHOLSU6aO0cWClFZU4Qy1kVPp304r2Dl_nYXpwRf00fRWqPKReWLyw8tuR67R-NWSBsoY0t-6Q2hd4C13YuXL-iC-0DV631DxegShLL5GUp_59dtRoMSS65GRxMXTDbzeC9Q9lkzxias8zoGtwZE5TV5AUqInM-SImaGf4Kbs3R_7O7dXzrZqdo4yTieGD1-xe4fAhyzi835GnL8zx2WFd4-3uAdW8LkKWAGiNwL1vbQalMG5gRBS328Ly072zE6O4doZwbIOHzqyD1TqK24HPj12Qj1GCjS2oKWC_Zu4BdF1Bnjh2EGFavd3VRv7raZrhZIATEukxLSXOP1QxTuTGFdYEUTJoPcpVX0sFvA0AlwGigqCwHNx8YabhB5lVkgSqTWHvLM6e-i-r6g18ELe7xEOVAgnkBpMeelig79VwYhnY9NfMY_4sTyDFkEGgkTeKmGyS3JqdYK9VlJ5nfF2adjLXZzYM_Y-GaMGv6YIS9ZiGIkfFVifR3QTLoY-qdSAHQ93qWiHa9WPKAS_bZ8cloMV_k4Lq7un-86DbXX3dYFF72_FzpK4JoxXGxey5cnOCURAx3Ycw2DzR3HdSKm_cn6um7t4D4Ueb4sETGhKFzXAXyt_KdOGWA_9m55o_UDOFxUMSis89_uWX3-NCgvZdx3Ihcq4yCnJSP9tu1nfY8N_Y_q2HZ5DUvopenIDOVpe6EcX6WZ2n0FukXzROCDY13sVYLDfmV_8DLJxh34C6UsX70hmDkaP58BJrO7zXC9UQLtqtNseJb7_UM4XJWEymgSmbh_-LIKGCBjT89NfODo9uNnGrljFZkqaGia6dwokwL9yUiMNyBpfs1CFDz0tZ3cL0ErW0wpqXXw73PkV7feA4P7jhZEDs6G6t7TmMSbDSfngeFM_6SYQ6-lVunmun--U90ELY2MXNj5bDXXxPSz6rUI1ak1ZaVT5fLDO7pKdsA&sai=AMfl-YQwSrcppwjucuIlz4m1sSf2GpHJNAVZmZbgrRhrxRTiwtf758FwqPs_FW3qnK3d2ZhW7zHrITOBjI9sLMPzrNu_O3LuU-JXz0omvFn7XAT3NIJRB8g0lTXTuqjuCcMfZevxZP--p5tgbJt10Si89hN6C1yUMeToRRbkCOg_zooXzaEr8pyYsz7vgYyd3uHBTPtMtbtM-ID6FTW8LGsUMooVfogjnmw0Nsemkcyu6WvaYbITfoOQSy3S8pVHmlmYVW9kr8ywZvjGgK--idp5pGEpjYbBJ7ef49xPCKLRoi64HHoBWOsfU9Lq7seuhV3qjr4hpJFf6hampPSAc2Onu1bDFY7lfrLD5j2lBXl4L5qoAqRdrQ5eeXl6WMTb9VsoHJtVFSBiUjd3c4hSe4YpV7aPbxI3H1Pk_VWdYxWxzwBRtvNVuqT6WS2NjLAftr5e7Fblt_kIb0c4TbGjEOQoHsHFMDRAvHOJLRo6reoJ1fSSG37BB0r7qxYEOfxvADVIz-Gg2s30nYb3xiIrFlCKLBHaWJXLBPvVmhUwrNNkUW0PW-hLcpxSfg3nsIxn15YqETYX9dV132rF1Am5ibXY1FjXfw-Eyy3o585BVhsUDg2qbZdpvcBJcPtTUwDkqwYcqP_kLNn1MUg0DyFI32Dce4lyJ5dmYJb8BKbc9KFbNChJuwoulCjScHzGsANKttsTCnYuNuwsV1uTl5OwjPU6Qn72khxa9brgiuAjMVuk1afaeQEYymG5yiOl713VxzIhhjiJXZMPMQErAn5WOJnqgOHYmrP5iV8Bxvvl1ndgdnrt2fB-f4VmfNzSV3-OQn3KN5nsrDwZKwYVOe-RMcWZ5sotHEH2JnEqL20RGJhfk6xD8xdDEhG0ig&sig=Cg0ArKJSzJlywgP_KMa-&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://bioderma.naosindia.in/products/moisturising-and-soothing-lip-care%3Futm_source%3Ddv360%26utm_medium%3Dpaid%26utm_campaign%3Din_bio_dv360_all_always-on_atoderm_na_awareness_atoderm-levres-moisturising-stickp1-display%26utm_content%3Dnative_local_atoderm-levres-moisturising-stick_inmarket-custom-intent%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23605414299
+            - img "Advertisement" [ref=f7e5]
+          - generic [ref=f7e6]:
+            - generic:
+              - img [ref=f7e10] [cursor=pointer]
+              - button [ref=f7e12] [cursor=pointer]:
+                - img [ref=f7e13]
+  - contentinfo [ref=e163]:
+    - generic [ref=e164]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

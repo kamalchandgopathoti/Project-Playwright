@@ -1,0 +1,189 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - heading "Dropdown" [level=1] [ref=e26]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - generic [ref=e34]: Select the apple using visible text
+              - combobox [ref=e37] [cursor=pointer]:
+                - option "Select Fruit"
+                - option "Apple"
+                - option "Mango" [selected]
+                - option "Orange"
+                - option "Banana"
+                - option "Pine Apple"
+            - generic [ref=e38]:
+              - generic [ref=e39]: Select your super hero's
+              - listbox [ref=e42] [cursor=pointer]:
+                - option "Ant-Man" [ref=e43]
+                - option "Aquaman" [ref=e44]
+                - option "The Avengers" [ref=e45]
+                - option "Batman" [ref=e46]
+                - option "Batwoman" [ref=e47]
+                - option "Black Panther" [ref=e48]
+                - option "Captain America" [ref=e49]
+                - option "Captain Marvel" [ref=e50]
+                - option "Daredevil" [ref=e51]
+                - option "Doc Savage" [ref=e52]
+                - option "Doctor Strange" [ref=e53]
+                - option "Elektra" [ref=e54]
+                - option "Fantastic Four" [ref=e55]
+                - option "Ghost Rider" [ref=e56]
+                - option "Green Lantern" [ref=e57]
+                - option "Guardians of the Galaxy" [ref=e58]
+                - option "Hellboy" [ref=e59]
+                - option "Incredible Hulk" [ref=e60]
+                - option "Iron Man" [ref=e61]
+                - option "Marvelman" [ref=e62]
+                - option "Robin" [ref=e63]
+                - option "The Shadow" [ref=e64]
+                - option "Spider-Man" [ref=e65]
+                - option "Supergirl" [ref=e66]
+                - option "Superman" [ref=e67]
+                - option "Thor" [ref=e68]
+                - option "Wolverine" [ref=e69]
+                - option "Wonder Woman" [ref=e70]
+                - option "e=\"xm\"X-Men" [ref=e71]
+            - generic [ref=e72]:
+              - generic [ref=e73]: Select the last programming language and print all the options
+              - combobox [ref=e76] [cursor=pointer]:
+                - option "JavaScript" [selected]
+                - option "Java"
+                - option "Python"
+                - option "Swift"
+                - option "C#"
+            - generic [ref=e77]:
+              - generic [ref=e78]: Select India using value & print the selected value
+              - combobox [ref=e80] [cursor=pointer]:
+                - option "Argentina" [selected]
+                - option "Bolivia"
+                - option "Brazil"
+                - option "Chile"
+                - option "Colombia"
+                - option "Ecuador"
+                - option "India"
+                - option "Paraguay"
+                - option "Peru"
+                - option "Suriname"
+                - option "Uruguay"
+                - option "Venezuela"
+            - text: 
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - paragraph [ref=e85]: Insight
+              - generic [ref=e88] [cursor=pointer]: 
+            - generic [ref=e90]:
+              - text: On completion of this exercise, you can learn the following concepts.
+              - list [ref=e91]:
+                - listitem [ref=e92]: selectByVisibleText()
+                - listitem [ref=e93]: isMultiple()
+                - listitem [ref=e94]: How to select mutiple values
+                - listitem [ref=e95]: selectByIndex()
+                - listitem [ref=e96]: getOptions()
+                - listitem [ref=e97]: selectByValue()
+                - listitem [ref=e98]: getFirstSelectedOption()
+            - iframe [ref=e102]:
+              - generic [ref=f13e2]:
+                - link:
+                  - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+                  - img [ref=f13e6]
+                - link "LetCode with Koushik" [ref=f13e7]:
+                  - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+                - generic [ref=f13e8]:
+                  - button "YouTube" [ref=f13e9] [cursor=pointer]:
+                    - generic "YouTube" [ref=f13e11]
+                  - button "42K" [ref=f13e12]
+            - button "Watch tutorial" [ref=e104] [cursor=pointer]
+          - generic [ref=e105]:
+            - generic:
+              - generic:
+                - generic:
+                  - insertion
+        - insertion [ref=e107]:
+          - iframe [ref=e109]:
+            - generic [active] [ref=f6e1]:
+              - generic [ref=f6e6]:
+                - generic [ref=f6e7]:
+                  - generic "Google NotebookLM" [ref=f6e9]:
+                    - link "Free for students" [ref=f6e10] [cursor=pointer]:
+                      - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CEXyOITLGaZT1FY6Q4dkPgdru-QmwhLn5hQGLn_bvixWl4ZDCsRIQASDTkZYiYOWS6IPYDqABx5XBvz7IAQGoAwHIA8sEqgT9AU_QLw34kYM0ArSl0Ljj25_fni6K3JkM2xwYcmyf0PH3Z9zd9Z4t5SLTVB1aWoWImYA9uR1urg5q2qIsiTqAFtKFDK9v6xnFdCqG4T958rDa3xJZhuj7HQgl_VHf5QHQFKcE9ds_Rfn73sy0b4pvwq4sDsdHoodWh6x4zqpwSIt6uhuJFjoYt9GQug2hB46W7RENWIi8yUVkmV5_wFsIh4ckDURQOQNEpenGkJOpbIGQ07dbPfbIeiKdHzI4oL1KwURbvORJTlRmzJ0sJhMykONXGYuD-WV53y1q-ToYtM54OyIBHOZ26hRFVBymnxEhQ7WwQTLCmQrSwH9Jd2rABPX76pq9BYgFpMX441WAB8fNkZ8ZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-tC008e_kwOxCZa-WEcQc0BRgAoBmAsByAsBogwDkAEBqg0CSU7IDQHqDRMIhJC208e_kwMVDkg4BR0BrTufiA4JsA69rZTZGNgTDNAVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKLVBgBIgEA0BgBshkBN8IZAggB&gclid=EAIaIQobChMI1Im208e_kwMVDkg4BR0BrTufEAEYASAAEgIIUfD_BwE&num=1&cid=CAQS-wEABaugfcmmegrFNn0QztKJsC6xTf185up6iX1YQyPtACS4gzXQVP2BEfykx7Crq6Kr5HATkRInAeybAy44qg_Eg8Vqa_Gt3SuKSTkQ-YH5oPCMyPx4HWG52y6NSjcnV8-kxBC8GtVZf-X30PYDh5xlwmDzhW3OoxXIER-TBA3UGv_IQg-wgB7hCV9nKhPBSZUybeI9cNQHloO6U-XpqVAUNGTSkSbbsKz_Jl0JPgd6jktn9tRgO-mKJD4Q-ZilY4dcHYZhfPn2NBcscRKG0ID389du0AHsKatSWMSr_-m2nq8ng1_CuoDfi7Pw5bzrNYPntjzhF0SQ6iYpARgB&sig=AOD64_1Je5Foha73-6-HBlYj-I0VMZ1VOg&client=ca-pub-6251538267574677&rf=1&nb=0&adurl=https://notebooklm.google/%3Fgad_source%3D5%26gad_campaignid%3D23026606756
+                  - generic [ref=f6e11]:
+                    - link "Start with lecture notes, finish ready for tests" [ref=f6e13] [cursor=pointer]:
+                      - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CEXyOITLGaZT1FY6Q4dkPgdru-QmwhLn5hQGLn_bvixWl4ZDCsRIQASDTkZYiYOWS6IPYDqABx5XBvz7IAQGoAwHIA8sEqgT9AU_QLw34kYM0ArSl0Ljj25_fni6K3JkM2xwYcmyf0PH3Z9zd9Z4t5SLTVB1aWoWImYA9uR1urg5q2qIsiTqAFtKFDK9v6xnFdCqG4T958rDa3xJZhuj7HQgl_VHf5QHQFKcE9ds_Rfn73sy0b4pvwq4sDsdHoodWh6x4zqpwSIt6uhuJFjoYt9GQug2hB46W7RENWIi8yUVkmV5_wFsIh4ckDURQOQNEpenGkJOpbIGQ07dbPfbIeiKdHzI4oL1KwURbvORJTlRmzJ0sJhMykONXGYuD-WV53y1q-ToYtM54OyIBHOZ26hRFVBymnxEhQ7WwQTLCmQrSwH9Jd2rABPX76pq9BYgFpMX441WAB8fNkZ8ZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-tC008e_kwOxCZa-WEcQc0BRgAoBmAsByAsBogwDkAEBqg0CSU7IDQHqDRMIhJC208e_kwMVDkg4BR0BrTufiA4JsA69rZTZGNgTDNAVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKLVBgBIgEA0BgBshkBN8IZAggB&gclid=EAIaIQobChMI1Im208e_kwMVDkg4BR0BrTufEAEYASAAEgIIUfD_BwE&num=1&cid=CAQS-wEABaugfcmmegrFNn0QztKJsC6xTf185up6iX1YQyPtACS4gzXQVP2BEfykx7Crq6Kr5HATkRInAeybAy44qg_Eg8Vqa_Gt3SuKSTkQ-YH5oPCMyPx4HWG52y6NSjcnV8-kxBC8GtVZf-X30PYDh5xlwmDzhW3OoxXIER-TBA3UGv_IQg-wgB7hCV9nKhPBSZUybeI9cNQHloO6U-XpqVAUNGTSkSbbsKz_Jl0JPgd6jktn9tRgO-mKJD4Q-ZilY4dcHYZhfPn2NBcscRKG0ID389du0AHsKatSWMSr_-m2nq8ng1_CuoDfi7Pw5bzrNYPntjzhF0SQ6iYpARgB&sig=AOD64_1Je5Foha73-6-HBlYj-I0VMZ1VOg&client=ca-pub-6251538267574677&rf=1&nb=7&adurl=https://notebooklm.google/%3Fgad_source%3D5%26gad_campaignid%3D23026606756
+                    - link [ref=f6e14] [cursor=pointer]:
+                      - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CEXyOITLGaZT1FY6Q4dkPgdru-QmwhLn5hQGLn_bvixWl4ZDCsRIQASDTkZYiYOWS6IPYDqABx5XBvz7IAQGoAwHIA8sEqgT9AU_QLw34kYM0ArSl0Ljj25_fni6K3JkM2xwYcmyf0PH3Z9zd9Z4t5SLTVB1aWoWImYA9uR1urg5q2qIsiTqAFtKFDK9v6xnFdCqG4T958rDa3xJZhuj7HQgl_VHf5QHQFKcE9ds_Rfn73sy0b4pvwq4sDsdHoodWh6x4zqpwSIt6uhuJFjoYt9GQug2hB46W7RENWIi8yUVkmV5_wFsIh4ckDURQOQNEpenGkJOpbIGQ07dbPfbIeiKdHzI4oL1KwURbvORJTlRmzJ0sJhMykONXGYuD-WV53y1q-ToYtM54OyIBHOZ26hRFVBymnxEhQ7WwQTLCmQrSwH9Jd2rABPX76pq9BYgFpMX441WAB8fNkZ8ZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-tC008e_kwOxCZa-WEcQc0BRgAoBmAsByAsBogwDkAEBqg0CSU7IDQHqDRMIhJC208e_kwMVDkg4BR0BrTufiA4JsA69rZTZGNgTDNAVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKLVBgBIgEA0BgBshkBN8IZAggB&gclid=EAIaIQobChMI1Im208e_kwMVDkg4BR0BrTufEAEYASAAEgIIUfD_BwE&num=1&cid=CAQS-wEABaugfcmmegrFNn0QztKJsC6xTf185up6iX1YQyPtACS4gzXQVP2BEfykx7Crq6Kr5HATkRInAeybAy44qg_Eg8Vqa_Gt3SuKSTkQ-YH5oPCMyPx4HWG52y6NSjcnV8-kxBC8GtVZf-X30PYDh5xlwmDzhW3OoxXIER-TBA3UGv_IQg-wgB7hCV9nKhPBSZUybeI9cNQHloO6U-XpqVAUNGTSkSbbsKz_Jl0JPgd6jktn9tRgO-mKJD4Q-ZilY4dcHYZhfPn2NBcscRKG0ID389du0AHsKatSWMSr_-m2nq8ng1_CuoDfi7Pw5bzrNYPntjzhF0SQ6iYpARgB&sig=AOD64_1Je5Foha73-6-HBlYj-I0VMZ1VOg&client=ca-pub-6251538267574677&rf=1&nb=8&adurl=https://notebooklm.google/%3Fgad_source%3D5%26gad_campaignid%3D23026606756
+                      - img [ref=f6e15]
+                - generic "Google NotebookLM" [ref=f6e17]:
+                  - link "Google NotebookLM" [ref=f6e18] [cursor=pointer]:
+                    - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CEXyOITLGaZT1FY6Q4dkPgdru-QmwhLn5hQGLn_bvixWl4ZDCsRIQASDTkZYiYOWS6IPYDqABx5XBvz7IAQGoAwHIA8sEqgT9AU_QLw34kYM0ArSl0Ljj25_fni6K3JkM2xwYcmyf0PH3Z9zd9Z4t5SLTVB1aWoWImYA9uR1urg5q2qIsiTqAFtKFDK9v6xnFdCqG4T958rDa3xJZhuj7HQgl_VHf5QHQFKcE9ds_Rfn73sy0b4pvwq4sDsdHoodWh6x4zqpwSIt6uhuJFjoYt9GQug2hB46W7RENWIi8yUVkmV5_wFsIh4ckDURQOQNEpenGkJOpbIGQ07dbPfbIeiKdHzI4oL1KwURbvORJTlRmzJ0sJhMykONXGYuD-WV53y1q-ToYtM54OyIBHOZ26hRFVBymnxEhQ7WwQTLCmQrSwH9Jd2rABPX76pq9BYgFpMX441WAB8fNkZ8ZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-tC008e_kwOxCZa-WEcQc0BRgAoBmAsByAsBogwDkAEBqg0CSU7IDQHqDRMIhJC208e_kwMVDkg4BR0BrTufiA4JsA69rZTZGNgTDNAVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKLVBgBIgEA0BgBshkBN8IZAggB&gclid=EAIaIQobChMI1Im208e_kwMVDkg4BR0BrTufEAEYASAAEgIIUfD_BwE&num=1&cid=CAQS-wEABaugfcmmegrFNn0QztKJsC6xTf185up6iX1YQyPtACS4gzXQVP2BEfykx7Crq6Kr5HATkRInAeybAy44qg_Eg8Vqa_Gt3SuKSTkQ-YH5oPCMyPx4HWG52y6NSjcnV8-kxBC8GtVZf-X30PYDh5xlwmDzhW3OoxXIER-TBA3UGv_IQg-wgB7hCV9nKhPBSZUybeI9cNQHloO6U-XpqVAUNGTSkSbbsKz_Jl0JPgd6jktn9tRgO-mKJD4Q-ZilY4dcHYZhfPn2NBcscRKG0ID389du0AHsKatSWMSr_-m2nq8ng1_CuoDfi7Pw5bzrNYPntjzhF0SQ6iYpARgB&sig=AOD64_1Je5Foha73-6-HBlYj-I0VMZ1VOg&client=ca-pub-6251538267574677&rf=1&nb=1&adurl=https://notebooklm.google/%3Fgad_source%3D5%26gad_campaignid%3D23026606756
+              - img [ref=f6e22] [cursor=pointer]
+              - button [ref=f6e24] [cursor=pointer]:
+                - img [ref=f6e25]
+              - iframe
+      - generic [ref=e111]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - contentinfo [ref=e113]:
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - paragraph [ref=e117]: LetCode by Koushik Chatterjee
+          - paragraph [ref=e118]: Empowering Test Automation Engineers through learning
+        - paragraph [ref=e120]:
+          - text: © 2025 LetCode | Created by
+          - link "Koushik Chatterjee" [ref=e121] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+          - text: "&"
+          - link "Bollineni Lakshmi Yaswanth" [ref=e122] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - iframe [ref=e123]:
+    
+  - insertion [ref=e124]:
+    - iframe [ref=e127]:
+      - generic [active] [ref=f8e1]:
+        - generic [ref=f8e6]:
+          - generic [ref=f8e8]:
+            - link "Google Chrome" [ref=f8e11] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CvMvsIDLGacGyFY_q4dkPu9D46Am8_bKNhgHKiImvwxW1kB8QASDTkZYiYOWS6IPYDqABjpDcsSjIAQGoAwHIA8sEqgSFAk_QqaVSCg9u4TgpYPpjOHC4_dPky4lLWe4qjsIcnrrFim5yCQ1vKQPLoPzD6gOBllgmcECymsqQuFnfgNtmeFKTq7q36zIsPTeul--9tjfWE300AZZm9J8ql2O8YK4m2B9aj4QQG5KFkDNOZQvcpXhLGSOXIuFkubk8pqkXptZMaN6tLVN8SPt4zMq2A6ARN7LZ6kqnoJGDpUduMCCqPMyg9bmQOSX7p1qozZyFVgIUntCaDKkd36SaR6IV9j23WT5PV-o6cd8FuSA5DG81KH-YUPgwrC4-AGvtKb9RhATXeJO-SqDe5ZeWAK-7HzA3HLsbcmmo15soHuOjLC7HDlkSnFx3y8AE3uqUzNYFiAXDr4qmV4AH44nNIqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgHwsixAtgHAdIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WN6F99LHv5MDmgkqaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jaHJvbWUvZHIvZG93bmxvYWQvsQlLLi0EslYIgoAKAcgLAeALAaIMA5ABAaoNAklOyA0B6g0TCN3G-NLHv5MDFQ91OAUdOygenYgOCdgTDYgUBNAVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgLeaBgBIgEA0BgB6BgBshkBL8IZAggB&gclid=EAIaIQobChMIwcL40se_kwMVD3U4BR07KB6dEAEYASAAEgI-z_D_BwE&num=1&cid=CAQSyAEABaugffXfx8kU1cjsired7HhqcmyFNQ8ec_BnT3zhHYJk4f1SyV5Z3R--b54NYySgPLICdtDx6FlegxKB_Jevg9tNy1didCroZxV5BuUrrRhtU5OhI4oDBQA0OLgqUu99oKKZJZGVQhZ_ydDudkZYzhUsY0vG8P1EFYGHtxvAq4tZe6UcSg3AdX1D6MnHY1QuBiWOWfZt6CNvkAKaXcRuD_dOnpMXE2o9DqtW-wqaclGCa-I2hFnG2kQOjy_GH1wrMTWhq1k4DBgB&sig=AOD64_0zaK8prMaqNfE98lzReVAhTdS_0Q&client=ca-pub-6251538267574677&rf=1&nb=19&adurl=https://ad.doubleclick.net/ddm/trackclk/N5295.5087813DEMANDGEN/B34618049.437475499%3Bdc_trk_aid%3D629327307%3Bdc_trk_cid%3D246757563%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bgdpr%3D%24%7BGDPR%7D%3Bgdpr_consent%3D%24%7BGDPR_CONSENT_755%7D%3Bltd%3D%3Bdc_tdv%3D1%3Bdc_pubid%3D8%3Fgad_source%3D5%26gad_campaignid%3D23433746371
+              - img "Google Chrome" [ref=f8e12]
+            - generic [ref=f8e13]:
+              - generic "Google Chrome" [ref=f8e14]:
+                - link "Download Google Chrome" [ref=f8e16] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CvMvsIDLGacGyFY_q4dkPu9D46Am8_bKNhgHKiImvwxW1kB8QASDTkZYiYOWS6IPYDqABjpDcsSjIAQGoAwHIA8sEqgSFAk_QqaVSCg9u4TgpYPpjOHC4_dPky4lLWe4qjsIcnrrFim5yCQ1vKQPLoPzD6gOBllgmcECymsqQuFnfgNtmeFKTq7q36zIsPTeul--9tjfWE300AZZm9J8ql2O8YK4m2B9aj4QQG5KFkDNOZQvcpXhLGSOXIuFkubk8pqkXptZMaN6tLVN8SPt4zMq2A6ARN7LZ6kqnoJGDpUduMCCqPMyg9bmQOSX7p1qozZyFVgIUntCaDKkd36SaR6IV9j23WT5PV-o6cd8FuSA5DG81KH-YUPgwrC4-AGvtKb9RhATXeJO-SqDe5ZeWAK-7HzA3HLsbcmmo15soHuOjLC7HDlkSnFx3y8AE3uqUzNYFiAXDr4qmV4AH44nNIqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgHwsixAtgHAdIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WN6F99LHv5MDmgkqaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jaHJvbWUvZHIvZG93bmxvYWQvsQlLLi0EslYIgoAKAcgLAeALAaIMA5ABAaoNAklOyA0B6g0TCN3G-NLHv5MDFQ91OAUdOygenYgOCdgTDYgUBNAVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgLeaBgBIgEA0BgB6BgBshkBL8IZAggB&gclid=EAIaIQobChMIwcL40se_kwMVD3U4BR07KB6dEAEYASAAEgI-z_D_BwE&num=1&cid=CAQSyAEABaugffXfx8kU1cjsired7HhqcmyFNQ8ec_BnT3zhHYJk4f1SyV5Z3R--b54NYySgPLICdtDx6FlegxKB_Jevg9tNy1didCroZxV5BuUrrRhtU5OhI4oDBQA0OLgqUu99oKKZJZGVQhZ_ydDudkZYzhUsY0vG8P1EFYGHtxvAq4tZe6UcSg3AdX1D6MnHY1QuBiWOWfZt6CNvkAKaXcRuD_dOnpMXE2o9DqtW-wqaclGCa-I2hFnG2kQOjy_GH1wrMTWhq1k4DBgB&sig=AOD64_0zaK8prMaqNfE98lzReVAhTdS_0Q&client=ca-pub-6251538267574677&rf=1&nb=0&adurl=https://ad.doubleclick.net/ddm/trackclk/N5295.5087813DEMANDGEN/B34618049.437475499%3Bdc_trk_aid%3D629327307%3Bdc_trk_cid%3D246757563%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bgdpr%3D%24%7BGDPR%7D%3Bgdpr_consent%3D%24%7BGDPR_CONSENT_755%7D%3Bltd%3D%3Bdc_tdv%3D1%3Bdc_pubid%3D8%3Fgad_source%3D5%26gad_campaignid%3D23433746371
+              - link "Download Chrome today for a fast and secure browsing experience. Google Chrome" [ref=f8e18] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CvMvsIDLGacGyFY_q4dkPu9D46Am8_bKNhgHKiImvwxW1kB8QASDTkZYiYOWS6IPYDqABjpDcsSjIAQGoAwHIA8sEqgSFAk_QqaVSCg9u4TgpYPpjOHC4_dPky4lLWe4qjsIcnrrFim5yCQ1vKQPLoPzD6gOBllgmcECymsqQuFnfgNtmeFKTq7q36zIsPTeul--9tjfWE300AZZm9J8ql2O8YK4m2B9aj4QQG5KFkDNOZQvcpXhLGSOXIuFkubk8pqkXptZMaN6tLVN8SPt4zMq2A6ARN7LZ6kqnoJGDpUduMCCqPMyg9bmQOSX7p1qozZyFVgIUntCaDKkd36SaR6IV9j23WT5PV-o6cd8FuSA5DG81KH-YUPgwrC4-AGvtKb9RhATXeJO-SqDe5ZeWAK-7HzA3HLsbcmmo15soHuOjLC7HDlkSnFx3y8AE3uqUzNYFiAXDr4qmV4AH44nNIqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgHwsixAtgHAdIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WN6F99LHv5MDmgkqaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jaHJvbWUvZHIvZG93bmxvYWQvsQlLLi0EslYIgoAKAcgLAeALAaIMA5ABAaoNAklOyA0B6g0TCN3G-NLHv5MDFQ91OAUdOygenYgOCdgTDYgUBNAVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgLeaBgBIgEA0BgB6BgBshkBL8IZAggB&gclid=EAIaIQobChMIwcL40se_kwMVD3U4BR07KB6dEAEYASAAEgI-z_D_BwE&num=1&cid=CAQSyAEABaugffXfx8kU1cjsired7HhqcmyFNQ8ec_BnT3zhHYJk4f1SyV5Z3R--b54NYySgPLICdtDx6FlegxKB_Jevg9tNy1didCroZxV5BuUrrRhtU5OhI4oDBQA0OLgqUu99oKKZJZGVQhZ_ydDudkZYzhUsY0vG8P1EFYGHtxvAq4tZe6UcSg3AdX1D6MnHY1QuBiWOWfZt6CNvkAKaXcRuD_dOnpMXE2o9DqtW-wqaclGCa-I2hFnG2kQOjy_GH1wrMTWhq1k4DBgB&sig=AOD64_0zaK8prMaqNfE98lzReVAhTdS_0Q&client=ca-pub-6251538267574677&rf=1&nb=7&adurl=https://ad.doubleclick.net/ddm/trackclk/N5295.5087813DEMANDGEN/B34618049.437475499%3Bdc_trk_aid%3D629327307%3Bdc_trk_cid%3D246757563%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bgdpr%3D%24%7BGDPR%7D%3Bgdpr_consent%3D%24%7BGDPR_CONSENT_755%7D%3Bltd%3D%3Bdc_tdv%3D1%3Bdc_pubid%3D8%3Fgad_source%3D5%26gad_campaignid%3D23433746371
+                - text: Download Chrome today for a fast and secure browsing experience. Google
+                - text: Chrome
+          - link "Download" [ref=f8e21] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CvMvsIDLGacGyFY_q4dkPu9D46Am8_bKNhgHKiImvwxW1kB8QASDTkZYiYOWS6IPYDqABjpDcsSjIAQGoAwHIA8sEqgSFAk_QqaVSCg9u4TgpYPpjOHC4_dPky4lLWe4qjsIcnrrFim5yCQ1vKQPLoPzD6gOBllgmcECymsqQuFnfgNtmeFKTq7q36zIsPTeul--9tjfWE300AZZm9J8ql2O8YK4m2B9aj4QQG5KFkDNOZQvcpXhLGSOXIuFkubk8pqkXptZMaN6tLVN8SPt4zMq2A6ARN7LZ6kqnoJGDpUduMCCqPMyg9bmQOSX7p1qozZyFVgIUntCaDKkd36SaR6IV9j23WT5PV-o6cd8FuSA5DG81KH-YUPgwrC4-AGvtKb9RhATXeJO-SqDe5ZeWAK-7HzA3HLsbcmmo15soHuOjLC7HDlkSnFx3y8AE3uqUzNYFiAXDr4qmV4AH44nNIqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgHwsixAtgHAdIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WN6F99LHv5MDmgkqaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9jaHJvbWUvZHIvZG93bmxvYWQvsQlLLi0EslYIgoAKAcgLAeALAaIMA5ABAaoNAklOyA0B6g0TCN3G-NLHv5MDFQ91OAUdOygenYgOCdgTDYgUBNAVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgLeaBgBIgEA0BgB6BgBshkBL8IZAggB&gclid=EAIaIQobChMIwcL40se_kwMVD3U4BR07KB6dEAEYASAAEgI-z_D_BwE&num=1&cid=CAQSyAEABaugffXfx8kU1cjsired7HhqcmyFNQ8ec_BnT3zhHYJk4f1SyV5Z3R--b54NYySgPLICdtDx6FlegxKB_Jevg9tNy1didCroZxV5BuUrrRhtU5OhI4oDBQA0OLgqUu99oKKZJZGVQhZ_ydDudkZYzhUsY0vG8P1EFYGHtxvAq4tZe6UcSg3AdX1D6MnHY1QuBiWOWfZt6CNvkAKaXcRuD_dOnpMXE2o9DqtW-wqaclGCa-I2hFnG2kQOjy_GH1wrMTWhq1k4DBgB&sig=AOD64_0zaK8prMaqNfE98lzReVAhTdS_0Q&client=ca-pub-6251538267574677&rf=1&nb=8&adurl=https://ad.doubleclick.net/ddm/trackclk/N5295.5087813DEMANDGEN/B34618049.437475499%3Bdc_trk_aid%3D629327307%3Bdc_trk_cid%3D246757563%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bgdpr%3D%24%7BGDPR%7D%3Bgdpr_consent%3D%24%7BGDPR_CONSENT_755%7D%3Bltd%3D%3Bdc_tdv%3D1%3Bdc_pubid%3D8%3Fgad_source%3D5%26gad_campaignid%3D23433746371
+            - generic [ref=f8e24]:
+              - generic [ref=f8e25]: Download
+              - img [ref=f8e26]
+        - img [ref=f8e31] [cursor=pointer]
+        - button [ref=f8e33] [cursor=pointer]:
+          - img [ref=f8e34]
+        - iframe
+```

@@ -1,0 +1,59 @@
+[
+  'Tiger Nixon',
+  'System Architect',
+  'Edinburgh',
+  '61',
+  '2011/04/25',
+  '$320,800'
+]
+YES Tiger Nixon  Records found
+[
+  'Sonya Frost',
+  'Software Engineer',
+  'Edinburgh',
+  '23',
+  '2008/12/13',
+  '$103,600'
+]
+YES  Sonya Frost record Exists
+[
+  'Quinn Flynn',
+  'Support Lead',
+  'Edinburgh',
+  '22',
+  '2013/03/03',
+  '$342,000'
+]
+All the Names in the WEB Table are:-
+[
+  'Tiger Nixon',     'Garrett Winters',  'Ashton Cox',
+  'Cedric Kelly',    'Airi Satou',       'Brielle Williamson',
+  'Herrod Chandler', 'Rhona Davidson',   'Colleen Hurst',
+  'Sonya Frost',     'Jena Gaines',      'Quinn Flynn',
+  'Charde Marshall', 'Haley Kennedy',    'Tatyana Fitzpatrick',
+  'Michael Silva',   'Paul Byrd',        'Gloria Little',
+  'Bradley Greer',   'Dai Rios',         'Jenette Caldwell',
+  'Yuri Berry',      'Caesar Vance',     'Doris Wilder',
+  'Angelica Ramos',  'Gavin Joyce',      'Jennifer Chang',
+  'Brenden Wagner',  'Fiona Green',      'Shou Itou',
+  'Michelle House',  'Suki Burks',       'Prescott Bartlett',
+  'Gavin Cortez',    'Martena Mccray',   'Unity Butler',
+  'Howard Hatfield', 'Hope Fuentes',     'Vivian Harrell',
+  'Timothy Mooney',  'Jackson Bradshaw', 'Olivia Liang',
+  'Bruno Nash',      'Sakura Yamamoto',  'Thor Walton',
+  'Finn Camacho',    'Serge Baldwin',    'Zenaida Frank',
+  'Zorita Serrano',  'Jennifer Acosta',  'Cara Stevens',
+  'Hermione Butler', 'Lael Greer',       'Jonas Alexander',
+  'Shad Decker'
+]
+Recorded files are there
+[ '$313,500' ]
+Deep equality Verified Match Successful
+[
+  'Caesar Vance',
+  'Pre-Sales Support',
+  'New York',
+  '21',
+  '2011/12/12',
+  '$106,450'
+]

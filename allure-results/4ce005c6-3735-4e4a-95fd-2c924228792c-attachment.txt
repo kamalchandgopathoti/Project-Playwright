@@ -1,0 +1,3 @@
+I came to first Alert box :{[(Simple Alert)]} ::-->>  I am an alert box!
+I came to the Second Alert box  :{[(Confirm Alert)]} ::-->>  Press a Button !
+I came to the Third Alert box  :{[(Prompt Alert)]} ::-->>  Please enter your name

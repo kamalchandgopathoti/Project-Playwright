@@ -1,0 +1,12 @@
+{
+  bookingid: 4760,
+  booking: {
+    firstname: 'Sally',
+    lastname: 'Silicon_1',
+    totalprice: 333,
+    depositpaid: true,
+    bookingdates: { checkin: '2013-02-23', checkout: '2014-10-23' },
+    additionalneeds: 'dinner'
+  }
+}
+undefined

@@ -1,0 +1,239 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e4]:
+      - /url: https://demoqa.com
+      - img [ref=e5]
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - navigation [ref=e10]:
+        - button [ref=e11]
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e16]:
+            - generic [ref=e17]:
+              - img [ref=e19]
+              - text: Elements
+            - img [ref=e24]
+          - list [ref=e27]:
+            - listitem [ref=e28]:
+              - link "Text Box" [ref=e29]:
+                - /url: /text-box
+                - img [ref=e30]
+                - text: Text Box
+            - listitem [ref=e32]:
+              - link "Check Box" [ref=e33]:
+                - /url: /checkbox
+                - img [ref=e34]
+                - text: Check Box
+            - listitem [ref=e36]:
+              - link "Radio Button" [ref=e37]:
+                - /url: /radio-button
+                - img [ref=e38]
+                - text: Radio Button
+            - listitem [ref=e40]:
+              - link "Web Tables" [ref=e41]:
+                - /url: /webtables
+                - img [ref=e42]
+                - text: Web Tables
+            - listitem [ref=e44]:
+              - link "Buttons" [ref=e45]:
+                - /url: /buttons
+                - img [ref=e46]
+                - text: Buttons
+            - listitem [ref=e48]:
+              - link "Links" [ref=e49]:
+                - /url: /links
+                - img [ref=e50]
+                - text: Links
+            - listitem [ref=e52]:
+              - link "Broken Links - Images" [ref=e53]:
+                - /url: /broken
+                - img [ref=e54]
+                - text: Broken Links - Images
+            - listitem [ref=e56]:
+              - link "Upload and Download" [ref=e57]:
+                - /url: /upload-download
+                - img [ref=e58]
+                - text: Upload and Download
+            - listitem [ref=e60]:
+              - link "Dynamic Properties" [ref=e61]:
+                - /url: /dynamic-properties
+                - img [ref=e62]
+                - text: Dynamic Properties
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - img [ref=e69]
+              - text: Forms
+            - img [ref=e75]
+          - list [ref=e78]:
+            - listitem [ref=e79]:
+              - link "Practice Form" [ref=e80]:
+                - /url: /automation-practice-form
+                - img [ref=e81]
+                - text: Practice Form
+        - generic [ref=e83]:
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - img [ref=e88]
+              - text: Alerts, Frame & Windows
+            - img [ref=e93]
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - link "Browser Windows" [ref=e98]:
+                - /url: /browser-windows
+                - img [ref=e99]
+                - text: Browser Windows
+            - listitem [ref=e101]:
+              - link "Alerts" [ref=e102]:
+                - /url: /alerts
+                - img [ref=e103]
+                - text: Alerts
+            - listitem [ref=e105]:
+              - link "Frames" [ref=e106]:
+                - /url: /frames
+                - img [ref=e107]
+                - text: Frames
+            - listitem [ref=e109]:
+              - link "Nested Frames" [ref=e110]:
+                - /url: /nestedframes
+                - img [ref=e111]
+                - text: Nested Frames
+            - listitem [ref=e113]:
+              - link "Modal Dialogs" [ref=e114]:
+                - /url: /modal-dialogs
+                - img [ref=e115]
+                - text: Modal Dialogs
+        - generic [ref=e117]:
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - img [ref=e122]
+              - text: Widgets
+            - img [ref=e128]
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "Accordian" [ref=e133]:
+                - /url: /accordian
+                - img [ref=e134]
+                - text: Accordian
+            - listitem [ref=e136]:
+              - link "Auto Complete" [ref=e137]:
+                - /url: /auto-complete
+                - img [ref=e138]
+                - text: Auto Complete
+            - listitem [ref=e140]:
+              - link "Date Picker" [ref=e141]:
+                - /url: /date-picker
+                - img [ref=e142]
+                - text: Date Picker
+            - listitem [ref=e144]:
+              - link "Slider" [ref=e145]:
+                - /url: /slider
+                - img [ref=e146]
+                - text: Slider
+            - listitem [ref=e148]:
+              - link "Progress Bar" [ref=e149]:
+                - /url: /progress-bar
+                - img [ref=e150]
+                - text: Progress Bar
+            - listitem [ref=e152]:
+              - link "Tabs" [ref=e153]:
+                - /url: /tabs
+                - img [ref=e154]
+                - text: Tabs
+            - listitem [ref=e156]:
+              - link "Tool Tips" [ref=e157]:
+                - /url: /tool-tips
+                - img [ref=e158]
+                - text: Tool Tips
+            - listitem [ref=e160]:
+              - link "Menu" [ref=e161]:
+                - /url: /menu
+                - img [ref=e162]
+                - text: Menu
+            - listitem [ref=e164]:
+              - link "Select Menu" [ref=e165]:
+                - /url: /select-menu
+                - img [ref=e166]
+                - text: Select Menu
+        - generic [ref=e168]:
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - img [ref=e173]
+              - text: Interactions
+            - img [ref=e178]
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Sortable" [ref=e183]:
+                - /url: /sortable
+                - img [ref=e184]
+                - text: Sortable
+            - listitem [ref=e186]:
+              - link "Selectable" [ref=e187]:
+                - /url: /selectable
+                - img [ref=e188]
+                - text: Selectable
+            - listitem [ref=e190]:
+              - link "Resizable" [ref=e191]:
+                - /url: /resizable
+                - img [ref=e192]
+                - text: Resizable
+            - listitem [ref=e194]:
+              - link "Droppable" [ref=e195]:
+                - /url: /droppable
+                - img [ref=e196]
+                - text: Droppable
+            - listitem [ref=e198]:
+              - link "Dragabble" [ref=e199]:
+                - /url: /dragabble
+                - img [ref=e200]
+                - text: Dragabble
+        - generic [ref=e202]:
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - img [ref=e207]
+              - text: Book Store Application
+            - img [ref=e212]
+          - list [ref=e215]:
+            - listitem [ref=e216]:
+              - link "Login" [ref=e217]:
+                - /url: /login
+                - img [ref=e218]
+                - text: Login
+            - listitem [ref=e220]:
+              - link "Book Store" [ref=e221]:
+                - /url: /books
+                - img [ref=e222]
+                - text: Book Store
+            - listitem [ref=e224]:
+              - link "Profile" [ref=e225]:
+                - /url: /profile
+                - img [ref=e226]
+                - text: Profile
+            - listitem [ref=e228]:
+              - link "Book Store API" [ref=e229]:
+                - /url: /swagger
+                - img [ref=e230]
+                - text: Book Store API
+    - generic [ref=e232]:
+      - heading "Text Box" [level=1] [ref=e233]
+      - generic [ref=e235]:
+        - generic [ref=e236]:
+          - generic [ref=e237]: Full Name
+          - textbox "Full Name" [ref=e239]
+        - generic [ref=e240]:
+          - generic [ref=e241]: Email
+          - textbox "name@example.com" [ref=e243]
+        - generic [ref=e244]:
+          - generic [ref=e245]: Current Address
+          - textbox "Current Address" [ref=e247]
+        - generic [ref=e248]:
+          - generic [ref=e249]: Permanent Address
+          - textbox [ref=e251]
+        - button "Submit" [ref=e254]
+  - contentinfo [ref=e256]:
+    - generic [ref=e257]: © 2013-2026 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

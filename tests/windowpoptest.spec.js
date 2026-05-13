@@ -19,9 +19,10 @@ test ("Windows Handling", async({browser}) =>{
     ])
     await newpage.locator('//i[@class="a-icon a-accordion-radio a-icon-radio-inactive"]').click()
      await newpage.waitForTimeout(3000)
-    await newpage.locator('//i[@class="a-icon a-accordion-radio a-icon-radio-inactive"]').click()
+     await newpage.locator('//i[@class="a-icon a-accordion-radio a-icon-radio-inactive"]').click()
      await newpage.waitForTimeout(3000)
-     await newpage.locator('(//input[@id="add-to-cart-button"])[2]').scrollIntoViewIfNeeded()
+     await newpage.locator('(//input[@id="add-to-cart-button"])[2]')
+    // await newpage.locator('(//input[@id="add-to-cart-button"])[2]').scrollIntoViewIfNeeded()
      await newpage.locator('//input[@id="mbb-offeringID-1"]').check()
     await newpage.locator('(//input[@id="add-to-cart-button"])[2]').click();
     await newpage.waitForTimeout(3000)
